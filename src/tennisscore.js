@@ -1,4 +1,4 @@
-function TennisScore(){
+function showScore(){
     return "Love - Love";
 }
-export default TennisScore;
+export default showScore;

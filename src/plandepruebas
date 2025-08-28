@@ -1,12 +1,12 @@
 Empieza sin puntos --> "Love-Love"
 
-Jugador 1 marca un punto ----> "15-0"
-Jugador 1 marca dos veces un punto ----> "30-0"
-Jugador 1 marca tres veces un punto ----> "40-0"
+Jugador 1 marca un punto ----> "15-Love"
+Jugador 1 marca dos veces un punto ----> "30-Love"
+Jugador 1 marca tres veces un punto ----> "40-Love"
 
-Jugador 2 marca un punto ----> "0-15"
-Jugador 2 marca dos veces un punto ----> "0-30"
-Jugador 2 marca tres veces un punto ----> "0-40"
+Jugador 2 marca un punto ----> "Love-15"
+Jugador 2 marca dos veces un punto ----> "Love-30"
+Jugador 2 marca tres veces un punto ----> "Love-40"
 
 Jugador 1 marco 3 veces y jugador marca 3 ---> "Deuce"
 Estando en Deuce si marca jugador 1 ---> "Advantage for 1"
