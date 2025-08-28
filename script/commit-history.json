@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3c3f0faa52472f0a1df3049dff90b69538749564",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-28T13:47:01.000Z",
       "message": "feat: devuelve 15-Love cuando el jugador 1 marca un punto",
-      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/3c3f0faa52472f0a1df3049dff90b69538749564"
     },
     "stats": {
       "total": 12,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-28T14:19:28.000Z",
+      "message": "refactoring: funciona la primera prueba cuando el jugador 1 y el jugador 2 empiezan en 0 devuelve Love- Love",
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 37,
+      "additions": 27,
+      "deletions": 10,
+      "date": "2025-08-28"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }
