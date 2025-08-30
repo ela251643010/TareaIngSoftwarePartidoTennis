@@ -19,6 +19,9 @@ class TennisScorer{
         if(this.pointsPlayer1 === 2) {
             return "30 - Love";
         }
+        if(this.pointsPlayer1 === 3) {
+            return "40 - Love"; }
+            
           return "Love - Love";
          
    }

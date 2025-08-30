@@ -22,4 +22,12 @@ describe("TennisScorer", () => {
         scorer.player1Scores(); //Act- ejectuamos
         expect(scorer.showScore()).toEqual("30 - Love");
     });
+    //Jugador 1 gana tres puntos
+    it("Deberia mostrar 40-Love cuando el jugador 1 gana tres puntos", () => {
+        const scorer= new TennisScorer(); //Arrange configurar
+        scorer.player1Scores(); //Act- ejectuamos   
+        scorer.player1Scores(); //Act- ejectuamos
+        scorer.player1Scores(); //Act- ejectuamos
+        expect(scorer.showScore()).toEqual("40 - Love");
+    });
 });
