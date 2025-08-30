@@ -56,4 +56,22 @@ describe("TennisScorer", () => {
         scorer.player2Scores(); 
         expect(scorer.showScore()).toEqual("Love - 40");
     });
+    it ("Deberia mostrar Win for Player 2 cuando el jugador 2 gana cuatro puntos", () => {
+        const scorer= new TennisScorer();   //Arrange configurar
+        scorer.player2Scores(); //Act- ejectuamos               
+        scorer.player2Scores(); //Act- ejectuamos
+        scorer.player2Scores();
+        scorer.player2Scores();
+        expect(scorer.showScore()).toEqual("Win for Player 2");
+    });
+    it("Deberia mostrar Deuce cuando ambos jugadores ganan tres punto", () => {
+        const scorer= new TennisScorer();   //Arrange configurar
+        scorer.player1Scores(); //Act- ejectuamos               
+        scorer.player1Scores(); 
+        scorer.player1Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        expect(scorer.showScore()).toEqual("Deuce");
+    });
 });

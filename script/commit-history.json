@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "91c7e9966929ceac79de9be001d55544d70bb52c",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-30T19:38:34.000Z",
       "message": "feat: nos muestra Love- 40 si el jugador 1 anoto tres  puntos",
-      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/91c7e9966929ceac79de9be001d55544d70bb52c"
     },
     "stats": {
       "total": 11,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-30T19:46:02.000Z",
+      "message": "feat: devuelve Deuce si ambos jugadores llegaron a 40, es decir 3 puntos por jugador",
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 28,
+      "deletions": 4,
+      "date": "2025-08-30"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
