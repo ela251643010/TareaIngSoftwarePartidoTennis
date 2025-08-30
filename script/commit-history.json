@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "efd6765d3a792fc072f3380b0e3570ef8ee2db0d",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-30T00:41:23.000Z",
       "message": "feat: el jugador 1 tiene 3 puntos y muestra 40-Love",
-      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/efd6765d3a792fc072f3380b0e3570ef8ee2db0d"
     },
     "stats": {
       "total": 11,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-30T00:47:15.000Z",
+      "message": "feat: el jugador 1 gana el set",
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2025-08-30"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
