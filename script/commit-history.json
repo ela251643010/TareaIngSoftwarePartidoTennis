@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0c49f5195ce8d80d3d07d13e0f46284a26aaadce",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-30T19:36:07.000Z",
       "message": "feat:muestra Loce - 30 cuando el jugador 2 anoto un punto mas",
-      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/0c49f5195ce8d80d3d07d13e0f46284a26aaadce"
     },
     "stats": {
       "total": 11,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-30T19:38:34.000Z",
+      "message": "feat: nos muestra Love- 40 si el jugador 1 anoto tres  puntos",
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2025-08-30"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
