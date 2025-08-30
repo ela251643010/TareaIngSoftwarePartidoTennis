@@ -108,4 +108,16 @@ describe("TennisScorer", () => {
         scorer.player1Scores();//win
         expect(scorer.showScore()).toEqual("Win for Player 1");
     });
+    it("Cuando el jugador 2 esta en ventaja y gana un punto deberia mostrar Win for Player 2", () => {
+        const scorer = new TennisScorer();   
+        scorer.player1Scores();//1
+        scorer.player1Scores(); //2     
+        scorer.player1Scores(); //3
+        scorer.player2Scores();//1
+        scorer.player2Scores(); //2
+        scorer.player2Scores(); //3
+        scorer.player2Scores(); //Advantage
+        scorer.player2Scores(); //win
+        expect(scorer.showScore()).toEqual("Win for Player 2");
+    });
 });

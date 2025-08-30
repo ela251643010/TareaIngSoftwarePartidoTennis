@@ -38,13 +38,14 @@ class TennisScorer{
             return "Love - 40"; }   
         if(this.pointsPlayer2 === 4 && this.pointsPlayer1 <= 2) {
             return "Win for Player 2"; }    
-            
+        if(this.pointsPlayer2 === 5 && this.pointsPlayer1 <= 3){
+            return "Win for Player 2"; }
         if(this.pointsPlayer1 === 3 && this.pointsPlayer2===3){
             return "Deuce";    }  
         if(this.pointsPlayer1 === 4 && this.pointsPlayer2===3){
             return "Advantage for Player 1";    }  
-            if(this.pointsPlayer2 === 4 && this.pointsPlayer1===3){
-                return "Advantage for Player 2";    }  
+        if(this.pointsPlayer2 === 4 && this.pointsPlayer1===3){
+            return "Advantage for Player 2";    }  
 
          
    }
