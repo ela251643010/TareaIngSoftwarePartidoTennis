@@ -1,18 +1,24 @@
 
 //OBJETIVO 
 class TennisScorer{
-   // this.pointsPlayer1 = 0;
+    constructor(){
+        this.pointsPlayer1 = 0;
+    }
     //this.pointsPlayer2 = 0;
-    //player1Scores();{
 
-    //}
+    player1Scores() {
+        this.pointsPlayer1 ++;
+
+    }
     //player2Scores();{}
     showScore() {
-   // if(jugador1 ===1 && jugador2 ===0) {
-      //  return "15 - Love";
-    //}
+        if(this.pointsPlayer1 === 1) {
 
-    return "Love - Love";
+             return "15 - Love";
+        }
+          return "Love - Love";
+         
    }
+
 };
 export default TennisScorer;
