@@ -24,7 +24,7 @@ class TennisScorer{
         }
         if(this.pointsPlayer1 === 3 && this.pointsPlayer2 === 0) {
             return "40 - Love"; }
-        if(this.pointsPlayer1 === 4) {
+        if(this.pointsPlayer1 === 4 && this.pointsPlayer2 <= 2) {
             return "Win for Player 1"; }    
         if(this.pointsPlayer2 === 1) {  
             return "Love - 15";
@@ -39,6 +39,8 @@ class TennisScorer{
             
         if(this.pointsPlayer1 === 3 && this.pointsPlayer2===3){
             return "Deuce";    }  
+        if(this.pointsPlayer1 === 4 && this.pointsPlayer2===3){
+            return "Advantage for Player 1";    }    
 
          
    }

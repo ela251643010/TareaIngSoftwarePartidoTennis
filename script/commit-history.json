@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9c7ab7748aafa50732309ac892a1101e88c2878f",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-30T19:46:02.000Z",
       "message": "feat: devuelve Deuce si ambos jugadores llegaron a 40, es decir 3 puntos por jugador",
-      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/9c7ab7748aafa50732309ac892a1101e88c2878f"
     },
     "stats": {
       "total": 32,
@@ -224,6 +224,25 @@
     },
     "coverage": 100,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-30T20:01:31.000Z",
+      "message": "feat: si estan en deuce, y el jugador 1 gana 1 punto, muestra Advantage for Player 1",
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 14,
+      "deletions": 1,
+      "date": "2025-08-30"
+    },
+    "coverage": 100,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -74,4 +74,15 @@ describe("TennisScorer", () => {
         scorer.player2Scores();
         expect(scorer.showScore()).toEqual("Deuce");
     });
+    it("Deberia mostrar Advantage for player 1 cuando estan en Deuce y el jugador 1 gana un punto ", () => {
+        const scorer = new TennisScorer();   //Arrange configurar
+        scorer.player1Scores(); //Act- ejectuamos
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        scorer.player1Scores();
+        expect(scorer.showScore()).toEqual("Advantage for Player 1");
+    });
 });
