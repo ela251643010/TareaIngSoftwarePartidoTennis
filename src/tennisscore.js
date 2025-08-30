@@ -25,6 +25,8 @@ class TennisScorer{
         if(this.pointsPlayer1 === 3 && this.pointsPlayer2 === 0) {
             return "40 - Love"; }
         if(this.pointsPlayer1 === 4 && this.pointsPlayer2 <= 2) {
+            return "Win for Player 1"; }
+        if(this.pointsPlayer1 === 5 && this.pointsPlayer2 <= 3){
             return "Win for Player 1"; }    
         if(this.pointsPlayer2 === 1) {  
             return "Love - 15";
@@ -34,13 +36,15 @@ class TennisScorer{
         }
         if(this.pointsPlayer2 === 3 && this.pointsPlayer1 === 0) {
             return "Love - 40"; }   
-        if(this.pointsPlayer2 === 4) {
+        if(this.pointsPlayer2 === 4 && this.pointsPlayer1 <= 2) {
             return "Win for Player 2"; }    
             
         if(this.pointsPlayer1 === 3 && this.pointsPlayer2===3){
             return "Deuce";    }  
         if(this.pointsPlayer1 === 4 && this.pointsPlayer2===3){
-            return "Advantage for Player 1";    }    
+            return "Advantage for Player 1";    }  
+            if(this.pointsPlayer2 === 4 && this.pointsPlayer1===3){
+                return "Advantage for Player 2";    }  
 
          
    }

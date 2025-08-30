@@ -85,4 +85,27 @@ describe("TennisScorer", () => {
         scorer.player1Scores();
         expect(scorer.showScore()).toEqual("Advantage for Player 1");
     });
+    it("Cuando estan en Duce Deberia mostrar Advantage for player 2 y el jugador 2 gana un punto ", () => {
+        const scorer = new TennisScorer();   //Arrange configurar
+        scorer.player1Scores(); //Act- ejectuamos
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        expect(scorer.showScore()).toEqual("Advantage for Player 2");
+    });
+    it("Cuando el jugador 1 esta en ventaja y gana un punto deberia mostrar Win for Player 1", () => {
+        const scorer = new TennisScorer();   
+        scorer.player1Scores();//1
+        scorer.player1Scores();//2
+        scorer.player1Scores();//3
+        scorer.player2Scores();//1
+        scorer.player2Scores();//2
+        scorer.player2Scores();//3
+        scorer.player1Scores();//Advantage
+        scorer.player1Scores();//win
+        expect(scorer.showScore()).toEqual("Win for Player 1");
+    });
 });

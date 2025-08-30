@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1e0701fcb58d8bfcfd90e91bfd3fd3b15e6b784d",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-30T20:01:31.000Z",
       "message": "feat: si estan en deuce, y el jugador 1 gana 1 punto, muestra Advantage for Player 1",
-      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/1e0701fcb58d8bfcfd90e91bfd3fd3b15e6b784d"
     },
     "stats": {
       "total": 15,
@@ -243,6 +243,25 @@
     },
     "coverage": 100,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-30T20:18:49.000Z",
+      "message": "feat: devuelve win for player 1 si el jugador 1 gana 2 puntos mas desde deuce",
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 31,
+      "additions": 29,
+      "deletions": 2,
+      "date": "2025-08-30"
+    },
+    "coverage": 100,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }
