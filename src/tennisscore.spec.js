@@ -14,8 +14,12 @@ describe("TennisScorer", () => {
         scorer.player1Scores(); //Act- ejectuamos
         expect(scorer.showScore()).toEqual("15 - Love"); //Assert Comprobar, VERIFICAR
     });
-    /*
+    //Jugador 2 gana dos puntos
+    
     it("Deberia mostrar 30-Love cuando el jugador 2 gana dos puntos", () => {
-        expect(showScore(2,0)).toEqual("30 - Love");
-    });*/
+        const scorer= new TennisScorer(); //Arrange configurar
+        scorer.player1Scores(); //Act- ejectuamos   
+        scorer.player1Scores(); //Act- ejectuamos
+        expect(scorer.showScore()).toEqual("30 - Love");
+    });
 });

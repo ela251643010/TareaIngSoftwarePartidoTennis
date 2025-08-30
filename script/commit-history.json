@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3df48dd8bc7c47364b0eed7edd4224a1251898d4",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-30T00:35:32.000Z",
       "message": "feat : funciona cuando el jugador 1 gana 1 punto",
-      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/3df48dd8bc7c47364b0eed7edd4224a1251898d4"
     },
     "stats": {
       "total": 29,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-08-30T00:38:35.000Z",
+      "message": "feat: devuelve 30 - Love si el jugador 1 tiene dos puntos",
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 10,
+      "deletions": 3,
+      "date": "2025-08-30"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }
