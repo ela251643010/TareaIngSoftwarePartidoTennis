@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e650b1b8b4ee5179e6e174eea92f42a7ab5f86df",
     "author": "ela251643010",
     "commit": {
       "date": "2025-08-30T20:22:09.000Z",
       "message": "feat: si estan en deuce, y el jugador 2  gana 2  punto, muestra Win for  Player 2",
-      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/e650b1b8b4ee5179e6e174eea92f42a7ab5f86df"
     },
     "stats": {
       "total": 19,
@@ -281,6 +281,25 @@
     },
     "coverage": 100,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-09-01T14:36:08.000Z",
+      "message": "feat: cuando se apreta el boton de reset el juego empieza de 0 y muestra Love - Love",
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 70,
+      "additions": 50,
+      "deletions": 20,
+      "date": "2025-09-01"
+    },
+    "coverage": 100,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }

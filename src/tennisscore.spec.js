@@ -120,4 +120,13 @@ describe("TennisScorer", () => {
         scorer.player2Scores(); //win
         expect(scorer.showScore()).toEqual("Win for Player 2");
     });
+    it("Deberia reiniciar el marcador a Love-Love cuando se llama a reset", () => {
+        const scorer = new TennisScorer();   
+        scorer.player1Scores();//1
+        scorer.player1Scores();//1
+        expect(scorer.showScore()).toEqual("30 - Love");
+        scorer.reset();
+        expect(scorer.showScore()).toEqual("Love - Love");
+    });
+
 });

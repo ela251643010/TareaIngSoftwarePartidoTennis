@@ -11,6 +11,10 @@ class TennisScorer{
     player2Scores() {
         this.pointsPlayer2 ++;
     }
+    reset() {
+        this.pointsPlayer1 = 0;
+        this.pointsPlayer2 = 0;
+    }   
     //player2Scores();{}
     showScore() {
          if(this.pointsPlayer1 === 0 && this.pointsPlayer2 === 0){     
