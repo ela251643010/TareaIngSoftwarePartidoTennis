@@ -149,4 +149,26 @@ describe("TennisScorer", () => {
         scorer.player2Scores();     
         expect(scorer.showScore()).toEqual("40 - 15");
     }  );
+    it("Deberia marcar Win for Player 1 cuando el jugador 1 gana cuatro puntos y el jugador 2 gana un punto ", () => {
+        const scorer = new TennisScorer();   
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player2Scores();     
+        expect(scorer.showScore()).toEqual("Win for Player 1");
+    }   );
+    it("Deberia mostras 15-15 cuando ambos jugadores ganan un punto ", () => {
+        const scorer = new TennisScorer();   
+        scorer.player1Scores();
+        scorer.player2Scores();     
+        expect(scorer.showScore()).toEqual("15 - 15");
+    }   );
+    it("Deberia mostras 15-30 cuando el jugador 1 gana un punto y el jugador 2 gana dos puntos ", () => {
+        const scorer = new TennisScorer();   
+        scorer.player1Scores();
+        scorer.player2Scores();     
+        scorer.player2Scores();     
+        expect(scorer.showScore()).toEqual("15 - 30");
+    }   );
 });
