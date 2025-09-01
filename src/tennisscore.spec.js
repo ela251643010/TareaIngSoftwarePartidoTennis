@@ -179,4 +179,30 @@ describe("TennisScorer", () => {
         scorer.player2Scores();     
         expect(scorer.showScore()).toEqual("30 - 30");
     });
+    it("Deberia mostrar 30 - 40 cuando el jugador 1 tiene 2 puntos y el jugador 2 tiene 3 puntos ", () => {
+        const scorer = new TennisScorer();   
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player2Scores();     
+        scorer.player2Scores();     
+        scorer.player2Scores();     
+            
+        expect(scorer.showScore()).toEqual("30 - 40");
+    });
+    it("Deberia mostrar 40 - 30 cuando el jugador 1 tiene 3 puntos y el jugador 2 tiene 2 puntos ", () => {
+        const scorer = new TennisScorer();   
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player2Scores();     
+        scorer.player2Scores(); 
+        expect(scorer.showScore()).toEqual("40 - 30");
+});
+it("Deberia mostrar 15 - 40 cuando el jugador 1 tiene 2 punto y el jugador 2 tiene 3 puntos ", () => {
+    const scorer = new TennisScorer();   
+    scorer.player1Scores();
+    scorer.player2Scores();     
+    scorer.player2Scores();     
+    scorer.player2Scores(); 
+    expect(scorer.showScore()).toEqual("15 - 40");});
 });

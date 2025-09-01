@@ -1,71 +1,78 @@
 
-//OBJETIVO 
-class TennisScorer{
-    constructor(){
-        this.pointsPlayer1 = 0;
-        this.pointsPlayer2 = 0;}
+    //OBJETIVO 
+    class TennisScorer{
+        constructor(){
+            this.pointsPlayer1 = 0;
+            this.pointsPlayer2 = 0;}
 
-    player1Scores() {
-        this.pointsPlayer1 ++;
+        player1Scores() {
+            this.pointsPlayer1 ++;
+        }
+        player2Scores() {
+            this.pointsPlayer2 ++;
+        }
+        reset() {
+            this.pointsPlayer1 = 0;
+            this.pointsPlayer2 = 0;
+        }   
+        //player2Scores();{}
+        showScore() {
+            if(this.pointsPlayer1 === 0 && this.pointsPlayer2 === 0){     
+            return "Love - Love";}
+            if(this.pointsPlayer1 === 1&& this.pointsPlayer2 === 0) {
+
+                return "15 - Love";
+            }
+            if(this.pointsPlayer1===1 && this.pointsPlayer2 === 1) {
+                return "15 - 15";
+            }
+            if(this.pointsPlayer1===2 && this.pointsPlayer2 === 1) {
+                return "30 - 15";
+            }
+            if(this.pointsPlayer1===3 && this.pointsPlayer2 === 1) {
+                return "40 - 15";
+            }
+            if(this.pointsPlayer1 === 2&& this.pointsPlayer2 === 0) {
+                return "30 - Love";
+            }
+            if(this.pointsPlayer1 === 3 && this.pointsPlayer2 === 0) {
+                return "40 - Love"; }
+            if(this.pointsPlayer1 === 4 && this.pointsPlayer2 <= 2) {
+                return "Win for Player 1"; }
+            if(this.pointsPlayer1 === 5 && this.pointsPlayer2 <= 3){
+                return "Win for Player 1"; }    
+            if(this.pointsPlayer2 === 1) {  
+                return "Love - 15";
+            }
+            if(this.pointsPlayer2 === 2 && this.pointsPlayer1 === 0) {
+                return "Love - 30";
+            }
+            if(this.pointsPlayer2 === 3 && this.pointsPlayer1 === 0) {
+                return "Love - 40"; }   
+            if(this.pointsPlayer2 === 2 && this.pointsPlayer1 === 1) {
+                return "15 - 30"; }
+            if(this.pointsPlayer2 === 2 && this.pointsPlayer1 === 2) {
+                return "30 - 30"; }
+            if(this.pointsPlayer2 === 3 && this.pointsPlayer1 === 2) {
+                return "30 - 40"; }
+
+            if(this.pointsPlayer2 === 2 && this.pointsPlayer1 === 3) {
+                return "40 - 30";    }    
+            if(this.pointsPlayer2 === 4 && this.pointsPlayer1 <= 2) {
+                return "Win for Player 2"; }    
+            if(this.pointsPlayer2 === 5 && this.pointsPlayer1 <= 3){
+                return "Win for Player 2"; }
+            if(this.pointsPlayer1 >= 3 && this.pointsPlayer2>=3 && this.pointsPlayer1 === this.pointsPlayer2){
+                return "Deuce";    }  
+            if(this.pointsPlayer1 >= 4 && this.pointsPlayer2<=3){
+                return "Advantage for Player 1";    }  
+            if(this.pointsPlayer2 >= 4 && this.pointsPlayer1<=3){
+                return "Advantage for Player 2";    }  
+            if(this.pointsPlayer1 ===  1 && this.pointsPlayer2 === 3){
+                return "15 - 40";    }
+                
+            
     }
-    player2Scores() {
-        this.pointsPlayer2 ++;
-    }
-    reset() {
-        this.pointsPlayer1 = 0;
-        this.pointsPlayer2 = 0;
-    }   
-    //player2Scores();{}
-    showScore() {
-         if(this.pointsPlayer1 === 0 && this.pointsPlayer2 === 0){     
-          return "Love - Love";}
-        if(this.pointsPlayer1 === 1&& this.pointsPlayer2 === 0) {
 
-             return "15 - Love";
-        }
-        if(this.pointsPlayer1===1 && this.pointsPlayer2 === 1) {
-            return "15 - 15";
-        }
-        if(this.pointsPlayer1===2 && this.pointsPlayer2 === 1) {
-            return "30 - 15";
-        }
-        if(this.pointsPlayer1===3 && this.pointsPlayer2 === 1) {
-            return "40 - 15";
-        }
-        if(this.pointsPlayer1 === 2&& this.pointsPlayer2 === 0) {
-            return "30 - Love";
-        }
-        if(this.pointsPlayer1 === 3 && this.pointsPlayer2 === 0) {
-            return "40 - Love"; }
-        if(this.pointsPlayer1 === 4 && this.pointsPlayer2 <= 2) {
-            return "Win for Player 1"; }
-        if(this.pointsPlayer1 === 5 && this.pointsPlayer2 <= 3){
-            return "Win for Player 1"; }    
-        if(this.pointsPlayer2 === 1) {  
-            return "Love - 15";
-        }
-        if(this.pointsPlayer2 === 2 && this.pointsPlayer1 === 0) {
-            return "Love - 30";
-        }
-        if(this.pointsPlayer2 === 3 && this.pointsPlayer1 === 0) {
-            return "Love - 40"; }   
-        if(this.pointsPlayer2 === 2 && this.pointsPlayer1 === 1) {
-            return "15 - 30"; }
-        if(this.pointsPlayer2 === 2 && this.pointsPlayer1 === 2) {
-            return "30 - 30"; }
-        if(this.pointsPlayer2 === 4 && this.pointsPlayer1 <= 2) {
-            return "Win for Player 2"; }    
-        if(this.pointsPlayer2 === 5 && this.pointsPlayer1 <= 3){
-            return "Win for Player 2"; }
-        if(this.pointsPlayer1 === 3 && this.pointsPlayer2===3){
-            return "Deuce";    }  
-        if(this.pointsPlayer1 === 4 && this.pointsPlayer2===3){
-            return "Advantage for Player 1";    }  
-        if(this.pointsPlayer2 === 4 && this.pointsPlayer1===3){
-            return "Advantage for Player 2";    }  
-
-         
-   }
-
-};
-export default TennisScorer;
+    };
+    export default TennisScorer;
