@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "013c547b42f52e1bb99a7c69752dc24468b6073c",
     "author": "ela251643010",
     "commit": {
       "date": "2025-09-01T14:36:08.000Z",
       "message": "feat: cuando se apreta el boton de reset el juego empieza de 0 y muestra Love - Love",
-      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/013c547b42f52e1bb99a7c69752dc24468b6073c"
     },
     "stats": {
       "total": 70,
@@ -300,6 +300,25 @@
     },
     "coverage": 100,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-09-01T14:45:59.000Z",
+      "message": "feat: devuelve 15-15 si cada jugador gano 1 punto",
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 9,
+      "deletions": 2,
+      "date": "2025-09-01"
+    },
+    "coverage": 100,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }

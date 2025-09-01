@@ -128,5 +128,9 @@ describe("TennisScorer", () => {
         scorer.reset();
         expect(scorer.showScore()).toEqual("Love - Love");
     });
-
+    it("Deberia marcar 15-15 cuando ambos jugadores ganan un punto ", () => {
+        const scorer = new TennisScorer();   
+        scorer.player1Scores();//1
+        scorer.player2Scores();//1      
+        expect(scorer.showScore()).toEqual("15 - 15");});
 });
