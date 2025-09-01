@@ -141,4 +141,12 @@ describe("TennisScorer", () => {
         scorer.player2Scores();     
         expect(scorer.showScore()).toEqual("30 - 15");
     });
+    it("Deberia marcar 40-15 cuando el jugador 1 gana tres puntos y el jugador 2 gana un punto ", () => {
+        const scorer = new TennisScorer();   
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player2Scores();     
+        expect(scorer.showScore()).toEqual("40 - 15");
+    }  );
 });
