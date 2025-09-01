@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d21fa262ea4ba28afc049925e5492d5ff0d94dd5",
     "author": "ela251643010",
     "commit": {
       "date": "2025-09-01T14:45:59.000Z",
       "message": "feat: devuelve 15-15 si cada jugador gano 1 punto",
-      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/d21fa262ea4ba28afc049925e5492d5ff0d94dd5"
     },
     "stats": {
       "total": 11,
@@ -319,6 +319,25 @@
     },
     "coverage": 100,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-09-01T14:50:53.000Z",
+      "message": "feat: marca 30 -15 si el jugador 1 gana dos puntos y el jugador 2 gana un punto",
+      "url": "https://github.com/ela251643010/TareaIngSoftwarePartidoTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2025-09-01"
+    },
+    "coverage": 100,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }
